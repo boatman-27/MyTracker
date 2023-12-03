@@ -6,7 +6,7 @@ from firebase_admin import credentials, db
 
 cred = credentials.Certificate("../python-jobs-b64cb-firebase-adminsdk-8365y-947ad35936.json")
 firebase_admin.initialize_app(cred, {
-    'databaseURL': "https://python-jobs-b64cb.firebaseio.com"
+    'databaseURL': "Your_database_link"
 })
 
 # Firebase URL
