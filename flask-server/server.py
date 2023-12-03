@@ -1,10 +1,8 @@
 from flask import Flask, request, jsonify
-import validators
 from datetime import datetime
 from firebase import firebase
 import firebase_admin
 from firebase_admin import credentials, db
-import uuid
 
 cred = credentials.Certificate("../python-jobs-b64cb-firebase-adminsdk-8365y-947ad35936.json")
 firebase_admin.initialize_app(cred, {
