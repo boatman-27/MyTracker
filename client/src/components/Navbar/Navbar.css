@@ -1,0 +1,68 @@
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem;
+  backdrop-filter: blur(10px); 
+  color: #fff;
+}
+
+.logo img {
+  max-width: 20%;
+  height: auto;
+}
+
+.navList {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.navItem {
+  margin: 0 20px; /* Reduce the margin for a more compact look */
+  text-align: center;
+  display: flex;
+  flex-direction: column; /* Align items vertically */
+  align-items: center;
+}
+
+.navItem span {
+  margin-top: 5px; /* Adjust the space between the icon and text */
+}
+
+.navItem i {
+  font-size: 32px; /* Increase the icon size */
+}
+
+.custom-button {
+  padding: 12px 20px;
+  border-radius: 8px;
+  cursor: pointer;
+  border: none;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  outline: none;
+  transition: background-color 0.3s;
+  text-decoration: none;
+  backdrop-filter: blur(10px);
+}
+
+.custom-button:hover {
+  background-color: transparent; 
+}
+
+
+.button {
+  padding: 12px 20px;
+  border-radius: 8px;
+  cursor: pointer;
+  border: none;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  outline: none;
+  text-decoration: none;
+  backdrop-filter: blur(10px);
+}
